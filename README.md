@@ -1,6 +1,6 @@
 # Miniproject-IronKaggle
 
-This project consists of a prediction of Sales data we got a dataframe called `training.csv`
+This project consists of a prediction of Sales-data. We got a dataframe called `training.csv`.
 
 It's info is below
 
@@ -22,7 +22,7 @@ Data columns (total 10 columns):
 dtypes: int64(8), object(2)
 memory usage: 48.9+ MB
 
-We used prepared the data and trained im multiple models using basically this baseline:
+We prepared the data and trained im multiple models using basically this baselines:
 
 The information above show us that the dataset is composed of 640840 rows with 10 features.
 8 of those features are integers:
@@ -39,6 +39,6 @@ The information above show us that the dataset is composed of 640840 rows with 1
 -    `state_holiday`:`Categorical data representing if there is no holiday represented by 0 and other types of holidays, we should use dummies`.
 No row contains null values.
 
-Results: Our best model was Random Forest we got an R2 score of 94.8 % for our test data.
+Results: Our best model was Random Forest we got an R2 score of 94.8 % for our validation data.
 
 We scored the `REAL_DATA.csv` and added on our file `G3.csv` the real data and an extra column `y_pred` which is the prediction of our sales.
