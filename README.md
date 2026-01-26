@@ -4,23 +4,23 @@ This project consists of a prediction of Sales-data. We got a dataframe called `
 
 It's info is below
 
-### <class 'pandas.core.frame.DataFrame'>
-### RangeIndex: 640840 entries, 0 to 640839
-### Data columns (total 10 columns):
-###     Column               Non-Null Count   Dtype 
+##### <class 'pandas.core.frame.DataFrame'>
+##### RangeIndex: 640840 entries, 0 to 640839
+##### Data columns (total 10 columns):
+#####     Column               Non-Null Count   Dtype 
 ---  ------               --------------   ----- 
-### 0   Unnamed: 0           640840 non-null  int64 
-### 1   store_ID             640840 non-null  int64 
-### 2   day_of_week          640840 non-null  int64 
-### 3   date                 640840 non-null  object
-### 4   nb_customers_on_day  640840 non-null  int64 
-### 5   open                 640840 non-null  int64 
-### 6   promotion            640840 non-null  int64 
-### 7   state_holiday        640840 non-null  object
-### 8   school_holiday       640840 non-null  int64 
-### 9   sales                640840 non-null  int64 
-### dtypes: int64(8), object(2)
-### memory usage: 48.9+ MB
+##### 0   Unnamed: 0           640840 non-null  int64 
+##### 1   store_ID             640840 non-null  int64 
+##### 2   day_of_week          640840 non-null  int64 
+##### 3   date                 640840 non-null  object
+##### 4   nb_customers_on_day  640840 non-null  int64 
+##### 5   open                 640840 non-null  int64 
+##### 6   promotion            640840 non-null  int64 
+##### 7   state_holiday        640840 non-null  object
+##### 8   school_holiday       640840 non-null  int64 
+##### 9   sales                640840 non-null  int64 
+##### dtypes: int64(8), object(2)
+##### memory usage: 48.9+ MB
 
 We prepared the data and trained im multiple models using basically this baselines:
 
