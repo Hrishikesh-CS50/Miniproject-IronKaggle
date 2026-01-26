@@ -7,7 +7,7 @@ It's info is below
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 640840 entries, 0 to 640839
 Data columns (total 10 columns):
- #   Column               Non-Null Count   Dtype 
+     Column               Non-Null Count   Dtype 
 ---  ------               --------------   ----- 
  0   Unnamed: 0           640840 non-null  int64 
  1   store_ID             640840 non-null  int64 
